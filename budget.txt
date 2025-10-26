@@ -1,0 +1,23 @@
+Current Voltage Power Energy Multimeter Module - PZEM-004T - https://tronic.lk/product/pzem-004-ac-digital-multifunction-meter-module-with-coi
+ESP32-C3 Super Mini Development Board - https://www.duino.lk/product/esp32-c3-super-mini-development-board/
+OLED 0.96 inch 128X64 OLED Display Module I2C IIC - https://geekworm.com/products/0-96-inch-oled
+Push Button OR Touch Key Touching Capacitive Switches TTP223 - https://www.duino.lk/product/touch-key-touching-capacitive-switches-ttp223/
+
+Rs.2,600.00
+Rs.900.00
+Rs.700.00
+Rs.80.00
+
+| Module                       | Pin | ESP32-C3 Pin    | Notes                                            |
+| ---------------------------- | --- | --------------- | ------------------------------------------------ |
+| **PZEM-004T**                | TX  | GPIO20 (ESP RX) | UART data from PZEM                              |
+|                              | RX  | GPIO21 (ESP TX) | UART data to PZEM                                |
+|                              | GND | GND             | Common ground                                    |
+|                              | VCC | 5V              | (Can work with 3.3–5V; 5V gives stable readings) |
+| **OLED Display (0.96" I2C)** | SDA | GPIO4           | I2C Data                                         |
+|                              | SCL | GPIO5           | I2C Clock                                        |
+|                              | VCC | 3.3V            | Power                                            |
+|                              | GND | GND             | —                                                |
+| **TTP223 Touch Sensor**      | OUT | GPIO2           | Touch input                                      |
+|                              | VCC | 3.3V            | Power                                            |
+|                              | GND | GND             | —                                                |
